@@ -1,0 +1,11 @@
+<module rename-to='ludo'>
+    <inherits name='playn.Scene'/>
+    <inherits name='LudoAssets'/>
+
+    <source path='core'/>
+    <source path='html'/>
+
+    <public path="resources"/>
+
+    <entry-point class='com.logicanvas.boardgames.ludo.html.LudoHtml'/>
+</module>
